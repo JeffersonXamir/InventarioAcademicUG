@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inventario Académico UG</string>
+
+    <string name="title_main">Panel de Control</string>
+    <string name="welcome_default">Bienvenido, Estudiante</string>
+    <string name="btn_new_item">Registrar Elemento</string>
+    <string name="btn_view_inventory">Ver Inventario</string>
+    <string name="btn_preferences">Preferencias</string>
+    <string name="btn_generate_report">Generar Reporte</string>
+    <string name="btn_open_web">Portal Web UG</string>
+
+    <string name="title_form">Nuevo Registro</string>
+    <string name="hint_nombre">Nombre del material (Ej. Laptop, Libro)</string>
+    <string name="hint_categoria">Categoría</string>
+    <string name="hint_cantidad">Cantidad</string>
+    <string name="hint_ubicacion">Ubicación (Opcional)</string>
+    <string name="hint_observacion">Observaciones (Opcional)</string>
+    <string name="btn_guardar">Guardar Elemento</string>
+
+    <string name="error_required">Este campo es obligatorio</string>
+    <string name="error_quantity">La cantidad debe ser mayor a 0</string>
+    <string name="bienvenido">Bienvenido</string>
+
+    <string name="title_preferences">Configuración del Estudiante</string>
+    <string name="hint_student_name">Nombre del Estudiante</string>
+    <string name="hint_course">Paralelo / Curso</string>
+    <string name="switch_greeting">Activar saludo en pantalla principal</string>
+    <string name="btn_save_preferences">Guardar Configuración</string>
+    <string name="msg_preferences_saved">Preferencias guardadas correctamente</string>
+
+    <string name="title_list">Inventario Actual</string>
+    <string name="hint_search">Buscar material o categoría...</string>
+    <string name="btn_search">Buscar</string>
+    <string name="msg_empty_list">No hay elementos registrados</string>
+
+    <string name="title_detail">Detalle del Elemento</string>
+    <string name="btn_actualizar">Actualizar Elemento</string>
+    <string name="btn_eliminar">Eliminar Elemento</string>
+    <string name="dialog_title_delete">Confirmar Eliminación</string>
+    <string name="dialog_msg_delete">¿Estás seguro de que deseas eliminar permanentemente este material del inventario?</string>
+    <string name="btn_yes">Sí, eliminar</string>
+    <string name="btn_no">Cancelar</string>
+
+    <string name="msg_report_success">Reportes generados correctamente en memoria local</string>
+    <string name="msg_report_error">Error al generar los reportes</string>
+    <string name="share_prompt">Compartir reporte con...</string>
+</resources>
