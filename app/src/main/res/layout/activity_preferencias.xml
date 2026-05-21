@@ -4,7 +4,11 @@
     android:layout_height="match_parent"
     android:background="@color/screen_background"
     android:orientation="vertical"
-    android:padding="@dimen/spacing_lg">
+    android:paddingStart="@dimen/spacing_lg"
+    android:paddingEnd="@dimen/spacing_lg"
+    android:paddingBottom="@dimen/spacing_lg"
+    android:paddingTop="@dimen/header_top_spacing"
+    android:id="@+id/preferenciasId">
 
     <TextView
         android:layout_width="match_parent"

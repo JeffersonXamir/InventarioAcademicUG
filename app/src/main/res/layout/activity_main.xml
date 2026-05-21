@@ -39,60 +39,15 @@
                 android:textSize="@dimen/body_size" />
         </LinearLayout>
 
-        <LinearLayout
+        <GridView
+            android:id="@+id/gridMenu"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="@dimen/spacing_md">
-
-            <Button
-                android:id="@+id/btnNewItem"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_sm"
-                android:backgroundTint="@color/ug_blue_dark"
-                android:minHeight="@dimen/button_min_height"
-                android:text="@string/btn_new_item"
-                android:textColor="@android:color/white" />
-
-            <Button
-                android:id="@+id/btnViewInventory"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_sm"
-                android:backgroundTint="@color/ug_blue_dark"
-                android:minHeight="@dimen/button_min_height"
-                android:text="@string/btn_view_inventory"
-                android:textColor="@android:color/white" />
-
-            <Button
-                android:id="@+id/btnPreferences"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_sm"
-                android:backgroundTint="@color/ug_blue_dark"
-                android:minHeight="@dimen/button_min_height"
-                android:text="@string/btn_preferences"
-                android:textColor="@android:color/white" />
-
-            <Button
-                android:id="@+id/btnGenerateReport"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_lg"
-                android:backgroundTint="@color/ug_blue_dark"
-                android:minHeight="@dimen/button_min_height"
-                android:text="@string/btn_generate_report"
-                android:textColor="@android:color/white" />
-
-            <Button
-                android:id="@+id/btnOpenWeb"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/text_secondary"
-                android:minHeight="@dimen/button_min_height"
-                android:text="@string/btn_open_web"
-                android:textColor="@android:color/white" />
-        </LinearLayout>
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:clipToPadding="false"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth" />
     </LinearLayout>
 </ScrollView>

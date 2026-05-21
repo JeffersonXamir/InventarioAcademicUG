@@ -4,7 +4,11 @@
     android:layout_height="match_parent"
     android:background="@color/screen_background"
     android:orientation="vertical"
-    android:padding="@dimen/spacing_md">
+    android:paddingStart="@dimen/spacing_md"
+    android:paddingEnd="@dimen/spacing_md"
+    android:paddingBottom="@dimen/spacing_md"
+    android:paddingTop="@dimen/header_top_spacing"
+    android:id="@+id/listaItemsId">
 
     <TextView
         android:layout_width="match_parent"

@@ -45,4 +45,12 @@
     <string name="msg_report_success">Reportes generados correctamente en memoria local</string>
     <string name="msg_report_error">Error al generar los reportes</string>
     <string name="share_prompt">Compartir reporte con...</string>
+    <string name="btn_new_item_description">Añadir equipos o libros</string>
+    <string name="btn_view_inventory_description">Consultar y editar datos</string>
+    <string name="btn_preferences_description">Configurar usuario</string>
+    <string name="btn_generate_report_description">Exportar archivo txt</string>
+    <string name="btn_open_web_description">Ir al portal web</string>
+    <string name="form_item_description">Ir a Formulario de Registro</string>
+    <string name="lista_items_description">Ir al Listado del Inventario</string>
+    <string name="preferencias_description">Ir a Preferencias</string>
 </resources>
